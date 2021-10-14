@@ -11,13 +11,13 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
 
-html, body {background: #39393a; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #50AAA9;}
+html, body {background: #39393a; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #39393a;}
 
 .clear {clear: both;}
 
 img src {
 	padding: 5px;
-	width: 150px;
+	width: 150%;
 	display: block;
 	
 }
