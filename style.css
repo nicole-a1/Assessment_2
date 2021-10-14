@@ -15,11 +15,17 @@ html, body {background: #0B132B; font-family: 'Lato', helvetica, arial, sans-ser
 
 .clear {clear: both;}
 
+img {
+	padding: 5px;
+	width: 150px;
+	display: block;
+	
+}
 p {
 	font-size: 1em;
 	line-height: 1.4em;
 	margin-bottom: 20px;
-	color: #709CD1;
+	color: #000000;
 }
 
 #cv {
@@ -35,8 +41,8 @@ p {
 	background: #3A506B;
 }
 
-#name h1 {
-	font-size: 2.5em;
+h1 {
+	font-size: 60px;
 	font-weight: 700;
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	margin-bottom: -6px;
