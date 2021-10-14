@@ -11,23 +11,22 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
 
+html, body {background: #0B132B; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #50AAA9;}
+
 .clear {clear: both;}
 
-div{ 
-	background: #e6e6e6;
-	
-}
-img src {
-	padding: 5px;
-	width: 75%;
-	display: block;
-	
-}
 p {
 	font-size: 1em;
 	line-height: 1.4em;
 	margin-bottom: 20px;
-	color: #f0f0f0;
+	color: #709CD1;
+}
+
+#cv {
+	width: 90%;
+	max-width: 800px;
+	background: #1C2541;
+	margin: 30px auto;
 }
 
 .mainDetails {
@@ -36,21 +35,17 @@ p {
 	background: #3A506B;
 }
 
-h1 {
-	font-size: 75%;
-	font-weight: bold;
+#name h1 {
+	font-size: 2.5em;
+	font-weight: 700;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	margin-bottom: -6px;
 }
 
-h2 {
-	font-size: large;
+#name h2 {
+	font-size: 2em;
 	margin-left: 2px;
-	
-}
-
-h3{
-	font-size: 50px;
-	
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 }
 
 #mainArea {
@@ -63,6 +58,12 @@ h3{
 	margin-right: 30px;
 }
 
+#headshot img {
+	width: 100%;
+	height: auto;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
 
 #name {
 	float: left;
@@ -129,7 +130,7 @@ section:last-child {
 }
 
 .sectionTitle img {
-	width: 65%;
+	width: 100%;
 }
 
 .sectionContent h2 {
