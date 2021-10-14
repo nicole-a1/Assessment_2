@@ -15,6 +15,11 @@ html, body {background: #39393a; font-family: 'Lato', helvetica, arial, sans-ser
 
 .clear {clear: both;}
 
+img src {
+	width: 100%;
+        height: auto;
+
+}
 p {
 	font-size: 1em;
 	line-height: 1.4em;
