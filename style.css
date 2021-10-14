@@ -11,13 +11,15 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
 
-html, body {background: #39393a; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #39393a;}
-
 .clear {clear: both;}
 
+div{ 
+	background: #e6e6e6;
+	
+}
 img src {
 	padding: 5px;
-	width: 150%;
+	width: 75%;
 	display: block;
 	
 }
@@ -28,13 +30,6 @@ p {
 	color: #f0f0f0;
 }
 
-#cv {
-	width: 90%;
-	max-width: 800px;
-	background: #1C2541;
-	margin: 30px auto;
-}
-
 .mainDetails {
 	padding: 25px 35px;
 	border-bottom: 2px solid #5BC0BE;
@@ -42,7 +37,7 @@ p {
 }
 
 h1 {
-	font-size: 150%;
+	font-size: 75%;
 	font-weight: bold;
 	margin-bottom: -6px;
 }
@@ -55,6 +50,7 @@ h2 {
 
 h3{
 	font-size: 50px;
+	
 }
 
 #mainArea {
@@ -67,12 +63,6 @@ h3{
 	margin-right: 30px;
 }
 
-#headshot img {
-	width: 100%;
-	height: auto;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-}
 
 #name {
 	float: left;
