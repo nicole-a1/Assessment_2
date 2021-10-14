@@ -11,11 +11,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
 
-html, body {background: #0B132B; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #50AAA9;}
+html, body {background: #39393a; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #50AAA9;}
 
 .clear {clear: both;}
 
-img {
+img src {
 	padding: 5px;
 	width: 150px;
 	display: block;
@@ -25,7 +25,7 @@ p {
 	font-size: 1em;
 	line-height: 1.4em;
 	margin-bottom: 20px;
-	color: #000000;
+	color: #f0f0f0;
 }
 
 #cv {
