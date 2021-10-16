@@ -55,9 +55,6 @@ p {
 	top: 0;
 	width: 100%;
 }
-.sticky + .content {
-	padding-top: 40px;
-}
 .navbar a:hover {
     background-color: #525971;
 }
@@ -91,20 +88,6 @@ h2 {
 #mainArea {
 	padding: 0 40px;
 }
-
-#headshot {
-	width: 12.5%;
-	float: left;
-	margin-right: 30px;
-}
-
-#headshot img {
-	width: 100%;
-	height: auto;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-}
-
 #name {
 	float: left;
 }
