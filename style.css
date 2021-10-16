@@ -49,6 +49,14 @@ p {
 .navbar a:hover {
     background-color: #525971;
 }
+#pimg {
+    max-width:100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
 
 .mainDetails {
 	padding: 25px 35px;
