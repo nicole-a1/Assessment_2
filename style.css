@@ -34,6 +34,23 @@ p {
 	margin: 30px auto;
 }
 
+.navbar {
+    margin-top: -20px;
+    overflow: hidden;
+    background-color: #767D9B;
+}
+.navbar a { 
+    float:left;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #525971;
+}
+
 .mainDetails {
 	padding: 25px 35px;
 	border-bottom: 2px solid #5BC0BE;
