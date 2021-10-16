@@ -162,11 +162,12 @@ section:last-child {
 	width: 72.5%;
 }
 
-.sectionTitle h1 {
+#teamminfo {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 1.5em;
 	color: #6FFFE9;
+	text-align: center;
 }
 
 .sectionTitle img {
