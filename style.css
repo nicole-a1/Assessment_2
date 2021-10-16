@@ -46,14 +46,21 @@ p {
     padding: 14px 16px;
     text-decoration: none;
 }
-.navbar a:hover {
-    background-color: #525971;
+.content {
+	padding: 14px;
 }
+  
 .sticky {
 	position: fixed;
 	top: 0;
 	width: 100%;
-  }
+}
+.sticky + .content {
+	padding-top: 40px;
+}
+.navbar a:hover {
+    background-color: #525971;
+}
 #pimg {
     max-width:100%;
     height: auto;
