@@ -137,7 +137,10 @@ h2 {
 #contactDetails ul li a:hover { 
 	color: #6FFFE9;
 }
-
+#contactDetails ul li a { 
+	color: white;
+    font-size: 16px; 
+}
 
 section {
 	border-top: 1px solid #5BC0BE;
