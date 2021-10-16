@@ -46,18 +46,6 @@ p {
     padding: 14px 16px;
     text-decoration: none;
 }
-.content {
-	padding: 14px;
-}
-  
-.sticky {
-	position: fixed;
-	top: 0;
-	width: 100%;
-}
-.navbar a:hover {
-    background-color: #525971;
-}
 #pimg {
     max-width:100%;
     height: auto;
