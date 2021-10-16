@@ -113,6 +113,27 @@ h2 {
     font-size: 16px; 
 }
 
+
+.tb1 {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse
+}
+.tb1 td, .tb1 th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.tb1 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3A506B;
+    color: white;
+}
+
+
 section {
 	border-top: 1px solid #5BC0BE;
 	padding: 20px 0 0;
