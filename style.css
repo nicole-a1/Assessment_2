@@ -11,7 +11,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
 
-html, body {background: #39393a; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #50AAA9;}
+html, body {background: #493657; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #50AAA9;}
 
 .clear {clear: both;}
 
@@ -24,13 +24,13 @@ p {
 	font-size: 1em;
 	line-height: 1.4em;
 	margin-bottom: 20px;
-	color: #709CD1;
+	color: #023618;
 }
 
 .button {
   border-radius: 20px;
   float: right;
-  background-color: #3A506B; 
+  background-color: #3A506B;
   border: none;
   color: white;
   padding: 10px 32px;
@@ -40,7 +40,7 @@ p {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  -webkit-transition-duration: 0.4s; 
+  -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
 
@@ -56,7 +56,7 @@ p {
 #cv {
 	width: 80%;
 	max-width: 1100px;
-	background: #1C2541;
+	background: #E6E6EA;
 	margin: 30px auto;
 }
 
@@ -74,7 +74,7 @@ p {
     overflow: hidden;
     background-color: white;
 }
-.navbar a { 
+.navbar a {
     float:left;
     font-size: 18px;
     color: black;
@@ -94,19 +94,19 @@ p {
 .mainDetails {
 	padding: 25px 35px;
 	border-bottom: 2px solid #5BC0BE;
-	background: #3A506B;
+	background: #CE7DA5;
 }
 
 h1{
 font-size:25px;
-  color: white;
+  color: black;
 }
 
 h2 {
 	font-size: 2em;
 	margin-left: 2px;
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
-	color: white;
+	color: 2EC4B6;
 }
 
 #mainArea {
@@ -114,6 +114,7 @@ h2 {
 }
 #name {
 	float: left;
+	color: white;
 }
 
 #contactDetails {
@@ -132,7 +133,7 @@ h2 {
 }
 
 #contactDetails ul li a, a[href^=tel] {
-	color: #0B132B; 
+	color: #white;
 	text-decoration: none;
 	-webkit-transition: all .3s ease-in;
 	-moz-transition: all .3s ease-in;
@@ -141,12 +142,12 @@ h2 {
 	transition: all .3s ease-in;
 }
 
-#contactDetails ul li a:hover { 
-	color: #6FFFE9;
+#contactDetails ul li a:hover {
+	color: #white;
 }
-#contactDetails ul li a { 
+#contactDetails ul li a {
 	color: white;
-    font-size: 16px; 
+    font-size: 16px;
 }
 
 
@@ -171,7 +172,7 @@ h2 {
 
 
 section {
-	border-top: 1px solid #5BC0BE;
+	border-top: 1px solid #328281;
 	padding: 20px 0 0;
 }
 
@@ -203,11 +204,17 @@ td {
 	width: 72.5%;
 }
 
+ul{
+	color: #023618;
+	margin-left: 80px;
+
+}
+
 #teamminfo {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-style: italic;
-	font-size: 1.5em;
-	color: #6FFFE9;
+	font-size: 2.5em;
+	color: #493657;
 	text-align: center;
 }
 
@@ -256,7 +263,7 @@ td {
 	#headshot {
 		display: none;
 	}
-	
+
 	.keySkills {
 	-moz-column-count:2;
 	-webkit-column-count:2;
@@ -270,27 +277,27 @@ td {
 		margin: 10px auto;
 		min-width: 280px;
 	}
-	
+
 	#headshot {
 		display: none;
 	}
-	
+
 	#name, #contactDetails {
 		float: none;
 		width: 100%;
 		text-align: center;
 	}
-	
+
 	.sectionTitle, .sectionContent {
 		float: none;
 		width: 100%;
 	}
-	
+
 	.sectionTitle {
 		margin-left: -2px;
 		font-size: 1.25em;
 	}
-	
+
 	.keySkills {
 		-moz-column-count:2;
 		-webkit-column-count:2;
@@ -302,22 +309,22 @@ td {
 	.mainDetails {
 		padding: 15px 15px;
 	}
-	
+
 	section {
 		padding: 15px 0 0;
 	}
-	
+
 	#mainArea {
 		padding: 0 25px;
 	}
 
-	
+
 	.keySkills {
 	-moz-column-count:1;
 	-webkit-column-count:1;
 	column-count:1;
 	}
-	
+
 	#name h1 {
 		line-height: .8em;
 		margin-bottom: 4px;
@@ -397,11 +404,11 @@ td {
     -webkit-animation-name: reset, fade-in;
     -webkit-animation-duration: 1.5s;
     -webkit-animation-timing-function: ease-in;
-	
+
 	-moz-animation-name: reset, fade-in;
     -moz-animation-duration: 1.5s;
     -moz-animation-timing-function: ease-in;
-	
+
 	animation-name: reset, fade-in;
     animation-duration: 1.5s;
     animation-timing-function: ease-in;
@@ -411,16 +418,16 @@ td {
     -webkit-animation-name: reset, fade-in;
     -webkit-animation-duration: 2.5s;
     -webkit-animation-timing-function: ease-in;
-	
+
 	-moz-animation-name: reset, fade-in;
     -moz-animation-duration: 2.5s;
     -moz-animation-timing-function: ease-in;
-	
+
 	animation-name: reset, fade-in;
     animation-duration: 2.5s;
     animation-timing-function: ease-in;
 }
- 
+
 .delayOne {
 	-webkit-animation-delay: 0, .5s;
 	-moz-animation-delay: 0, .5s;
