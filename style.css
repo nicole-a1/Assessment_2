@@ -33,6 +33,16 @@ p {
 	background: #1C2541;
 	margin: 30px auto;
 }
+
+#reff ul li a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
 .navbar {
     margin-top: -20px;
     overflow: hidden;
